@@ -346,17 +346,17 @@ export default function SearchPage({ searchParams }: SearchPageProps) {
             </h2>
             <div className="prose prose-lg text-secondary-700">
               <p className="mb-4">
-                When looking for {displaytype} builders in {displayLocation}, it's essential to choose experienced professionals 
+                When looking for {displayType} builders in {displayLocation}, it's essential to choose experienced professionals 
                 who understand the unique requirements of garden office construction. Professional builders bring expertise in 
                 planning permissions, building regulations, and structural requirements specific to garden buildings.
               </p>
               <p className="mb-4">
-                Our verified {displaytype} builders in {displayLocation} have been carefully selected based on their track record, 
+                Our verified {displayType} builders in {displayLocation} have been carefully selected based on their track record, 
                 customer reviews, and commitment to quality. They specialize in creating bespoke garden offices that meet your 
                 specific needs while ensuring compliance with all relevant regulations.
               </p>
               <h3 className="text-xl font-semibold text-secondary-900 mb-3">
-                What to Look for in a {displaytype.charAt(0).toUpperCase() + displaytype.slice(1)} Builder
+                What to Look for in a {displayType.charAt(0).toUpperCase() + displayType.slice(1)} Builder
               </h3>
               <ul className="list-disc pl-6 mb-4">
                 <li>Experience with garden office construction and planning permissions</li>
@@ -366,7 +366,7 @@ export default function SearchPage({ searchParams }: SearchPageProps) {
                 <li>Positive customer reviews and testimonials</li>
               </ul>
               <p>
-                Contact our featured {displaytype} builders in {displayLocation} today to discuss your project requirements 
+                Contact our featured {displayType} builders in {displayLocation} today to discuss your project requirements 
                 and get a personalized quote for your garden office.
               </p>
             </div>

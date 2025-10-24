@@ -118,7 +118,7 @@ interface SearchFiltersProps {
 }
 
 export function SearchFilters({ onFilterChange, currentFilters }: SearchFiltersProps) {
-  const handleFilterChange = (key: string, value: string) => {
+  const handleFilterChange = (key: string, value: string | boolean) => {
     onFilterChange({
       ...currentFilters,
       [key]: value

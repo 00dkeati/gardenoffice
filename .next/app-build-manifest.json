@@ -1,3 +1,197 @@
 {
-  "pages": {}
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-59d6796e85cafa95.js",
+      "static/chunks/fd9d1056-357a9aa7cf7b0906.js",
+      "static/chunks/117-9710a79d70118eb5.js",
+      "static/chunks/main-app-60f8ac4f9c45f151.js",
+      "static/chunks/app/_not-found/page-a8b3782ae8a0d8fd.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-59d6796e85cafa95.js",
+      "static/chunks/fd9d1056-357a9aa7cf7b0906.js",
+      "static/chunks/117-9710a79d70118eb5.js",
+      "static/chunks/main-app-60f8ac4f9c45f151.js",
+      "static/css/829200d08d0df7d4.css",
+      "static/chunks/app/layout-2210c2f85649e909.js"
+    ],
+    "/bespoke-garden-office/[[...location]]/page": [
+      "static/chunks/webpack-59d6796e85cafa95.js",
+      "static/chunks/fd9d1056-357a9aa7cf7b0906.js",
+      "static/chunks/117-9710a79d70118eb5.js",
+      "static/chunks/main-app-60f8ac4f9c45f151.js",
+      "static/chunks/app/bespoke-garden-office/[[...location]]/page-a684d90d73931a45.js"
+    ],
+    "/cheap-garden-office-pod/[[...location]]/page": [
+      "static/chunks/webpack-59d6796e85cafa95.js",
+      "static/chunks/fd9d1056-357a9aa7cf7b0906.js",
+      "static/chunks/117-9710a79d70118eb5.js",
+      "static/chunks/main-app-60f8ac4f9c45f151.js",
+      "static/chunks/app/cheap-garden-office-pod/[[...location]]/page-c3f455697152c2d0.js"
+    ],
+    "/admin/page": [
+      "static/chunks/webpack-59d6796e85cafa95.js",
+      "static/chunks/fd9d1056-357a9aa7cf7b0906.js",
+      "static/chunks/117-9710a79d70118eb5.js",
+      "static/chunks/main-app-60f8ac4f9c45f151.js",
+      "static/chunks/app/admin/page-5c6ec6c5ad565483.js"
+    ],
+    "/companies/[slug]/page": [
+      "static/chunks/webpack-59d6796e85cafa95.js",
+      "static/chunks/fd9d1056-357a9aa7cf7b0906.js",
+      "static/chunks/117-9710a79d70118eb5.js",
+      "static/chunks/main-app-60f8ac4f9c45f151.js",
+      "static/chunks/972-ed5ec83d6b8990f7.js",
+      "static/chunks/app/companies/[slug]/page-63811e69e2409b15.js"
+    ],
+    "/garden-office-and-shed/[[...location]]/page": [
+      "static/chunks/webpack-59d6796e85cafa95.js",
+      "static/chunks/fd9d1056-357a9aa7cf7b0906.js",
+      "static/chunks/117-9710a79d70118eb5.js",
+      "static/chunks/main-app-60f8ac4f9c45f151.js",
+      "static/chunks/app/garden-office-and-shed/[[...location]]/page-b96b5d7f72b258e2.js"
+    ],
+    "/garden-office-and-storage-shed/[[...location]]/page": [
+      "static/chunks/webpack-59d6796e85cafa95.js",
+      "static/chunks/fd9d1056-357a9aa7cf7b0906.js",
+      "static/chunks/117-9710a79d70118eb5.js",
+      "static/chunks/main-app-60f8ac4f9c45f151.js",
+      "static/chunks/app/garden-office-and-storage-shed/[[...location]]/page-9908b87658f2219d.js"
+    ],
+    "/garden-office-build/[[...location]]/page": [
+      "static/chunks/webpack-59d6796e85cafa95.js",
+      "static/chunks/fd9d1056-357a9aa7cf7b0906.js",
+      "static/chunks/117-9710a79d70118eb5.js",
+      "static/chunks/main-app-60f8ac4f9c45f151.js",
+      "static/chunks/app/garden-office-build/[[...location]]/page-f56035dd72777c31.js"
+    ],
+    "/garden-office-building/[[...location]]/page": [
+      "static/chunks/webpack-59d6796e85cafa95.js",
+      "static/chunks/fd9d1056-357a9aa7cf7b0906.js",
+      "static/chunks/117-9710a79d70118eb5.js",
+      "static/chunks/main-app-60f8ac4f9c45f151.js",
+      "static/chunks/app/garden-office-building/[[...location]]/page-1338365becba1426.js"
+    ],
+    "/garden-office-buildings/[[...location]]/page": [
+      "static/chunks/webpack-59d6796e85cafa95.js",
+      "static/chunks/fd9d1056-357a9aa7cf7b0906.js",
+      "static/chunks/117-9710a79d70118eb5.js",
+      "static/chunks/main-app-60f8ac4f9c45f151.js",
+      "static/chunks/app/garden-office-buildings/[[...location]]/page-60593cecf9710671.js"
+    ],
+    "/garden-office-for-sale/[[...location]]/page": [
+      "static/chunks/webpack-59d6796e85cafa95.js",
+      "static/chunks/fd9d1056-357a9aa7cf7b0906.js",
+      "static/chunks/117-9710a79d70118eb5.js",
+      "static/chunks/main-app-60f8ac4f9c45f151.js",
+      "static/chunks/app/garden-office-for-sale/[[...location]]/page-6da31953ed4b74bd.js"
+    ],
+    "/garden-office-pod-cheap/[[...location]]/page": [
+      "static/chunks/webpack-59d6796e85cafa95.js",
+      "static/chunks/fd9d1056-357a9aa7cf7b0906.js",
+      "static/chunks/117-9710a79d70118eb5.js",
+      "static/chunks/main-app-60f8ac4f9c45f151.js",
+      "static/chunks/app/garden-office-pod-cheap/[[...location]]/page-2f1c3e740fd0e427.js"
+    ],
+    "/garden-office-pod/[[...location]]/page": [
+      "static/chunks/webpack-59d6796e85cafa95.js",
+      "static/chunks/fd9d1056-357a9aa7cf7b0906.js",
+      "static/chunks/117-9710a79d70118eb5.js",
+      "static/chunks/main-app-60f8ac4f9c45f151.js",
+      "static/chunks/app/garden-office-pod/[[...location]]/page-478c6a88ef37335a.js"
+    ],
+    "/garden-office-room/[[...location]]/page": [
+      "static/chunks/webpack-59d6796e85cafa95.js",
+      "static/chunks/fd9d1056-357a9aa7cf7b0906.js",
+      "static/chunks/117-9710a79d70118eb5.js",
+      "static/chunks/main-app-60f8ac4f9c45f151.js",
+      "static/chunks/app/garden-office-room/[[...location]]/page-65cc7443d72a229e.js"
+    ],
+    "/garden-office-rooms/[[...location]]/page": [
+      "static/chunks/webpack-59d6796e85cafa95.js",
+      "static/chunks/fd9d1056-357a9aa7cf7b0906.js",
+      "static/chunks/117-9710a79d70118eb5.js",
+      "static/chunks/main-app-60f8ac4f9c45f151.js",
+      "static/chunks/app/garden-office-rooms/[[...location]]/page-95f1727c5f28089e.js"
+    ],
+    "/garden-office-sale/[[...location]]/page": [
+      "static/chunks/webpack-59d6796e85cafa95.js",
+      "static/chunks/fd9d1056-357a9aa7cf7b0906.js",
+      "static/chunks/117-9710a79d70118eb5.js",
+      "static/chunks/main-app-60f8ac4f9c45f151.js",
+      "static/chunks/app/garden-office-sale/[[...location]]/page-cea1fe397d54625e.js"
+    ],
+    "/garden-office-shed/[[...location]]/page": [
+      "static/chunks/webpack-59d6796e85cafa95.js",
+      "static/chunks/fd9d1056-357a9aa7cf7b0906.js",
+      "static/chunks/117-9710a79d70118eb5.js",
+      "static/chunks/main-app-60f8ac4f9c45f151.js",
+      "static/chunks/app/garden-office-shed/[[...location]]/page-0caa06e877b4ea47.js"
+    ],
+    "/garden-office-uk/[[...location]]/page": [
+      "static/chunks/webpack-59d6796e85cafa95.js",
+      "static/chunks/fd9d1056-357a9aa7cf7b0906.js",
+      "static/chunks/117-9710a79d70118eb5.js",
+      "static/chunks/main-app-60f8ac4f9c45f151.js",
+      "static/chunks/app/garden-office-uk/[[...location]]/page-14bd942ef93a42b4.js"
+    ],
+    "/garden-office/[[...location]]/page": [
+      "static/chunks/webpack-59d6796e85cafa95.js",
+      "static/chunks/fd9d1056-357a9aa7cf7b0906.js",
+      "static/chunks/117-9710a79d70118eb5.js",
+      "static/chunks/main-app-60f8ac4f9c45f151.js",
+      "static/chunks/app/garden-office/[[...location]]/page-2187ccc736fd40bd.js"
+    ],
+    "/home-garden-office/[[...location]]/page": [
+      "static/chunks/webpack-59d6796e85cafa95.js",
+      "static/chunks/fd9d1056-357a9aa7cf7b0906.js",
+      "static/chunks/117-9710a79d70118eb5.js",
+      "static/chunks/main-app-60f8ac4f9c45f151.js",
+      "static/chunks/app/home-garden-office/[[...location]]/page-bc56f5b08aefd570.js"
+    ],
+    "/insulate-garden-office/[[...location]]/page": [
+      "static/chunks/webpack-59d6796e85cafa95.js",
+      "static/chunks/fd9d1056-357a9aa7cf7b0906.js",
+      "static/chunks/117-9710a79d70118eb5.js",
+      "static/chunks/main-app-60f8ac4f9c45f151.js",
+      "static/chunks/app/insulate-garden-office/[[...location]]/page-6610293add8259b2.js"
+    ],
+    "/insulated-garden-office/[[...location]]/page": [
+      "static/chunks/webpack-59d6796e85cafa95.js",
+      "static/chunks/fd9d1056-357a9aa7cf7b0906.js",
+      "static/chunks/117-9710a79d70118eb5.js",
+      "static/chunks/main-app-60f8ac4f9c45f151.js",
+      "static/chunks/app/insulated-garden-office/[[...location]]/page-4899a6c6b58110bd.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-59d6796e85cafa95.js",
+      "static/chunks/fd9d1056-357a9aa7cf7b0906.js",
+      "static/chunks/117-9710a79d70118eb5.js",
+      "static/chunks/main-app-60f8ac4f9c45f151.js",
+      "static/chunks/972-ed5ec83d6b8990f7.js",
+      "static/chunks/app/page-81a9dac4a862c141.js"
+    ],
+    "/small-garden-office/[[...location]]/page": [
+      "static/chunks/webpack-59d6796e85cafa95.js",
+      "static/chunks/fd9d1056-357a9aa7cf7b0906.js",
+      "static/chunks/117-9710a79d70118eb5.js",
+      "static/chunks/main-app-60f8ac4f9c45f151.js",
+      "static/chunks/app/small-garden-office/[[...location]]/page-16d33580b9b52cea.js"
+    ],
+    "/search/page": [
+      "static/chunks/webpack-59d6796e85cafa95.js",
+      "static/chunks/fd9d1056-357a9aa7cf7b0906.js",
+      "static/chunks/117-9710a79d70118eb5.js",
+      "static/chunks/main-app-60f8ac4f9c45f151.js",
+      "static/chunks/972-ed5ec83d6b8990f7.js",
+      "static/chunks/app/search/page-9e163f61c5907e59.js"
+    ],
+    "/uk-garden-office/[[...location]]/page": [
+      "static/chunks/webpack-59d6796e85cafa95.js",
+      "static/chunks/fd9d1056-357a9aa7cf7b0906.js",
+      "static/chunks/117-9710a79d70118eb5.js",
+      "static/chunks/main-app-60f8ac4f9c45f151.js",
+      "static/chunks/app/uk-garden-office/[[...location]]/page-c4c1ff2845f72ff0.js"
+    ]
+  }
 }
