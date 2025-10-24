@@ -1,0 +1,114 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model Company {
+  id          String   @id @default(cuid())
+  name        String
+  slug        String   @unique
+  description String?
+  website     String?
+  phone       String?
+  email       String?
+  address     String?
+  city        String?
+  county      String?
+  postcode    String?
+  latitude    Float?
+  longitude   Float?
+  
+  // Services offered (comma-separated string for SQLite compatibility)
+  services    String? // Comma-separated services like "garden-office,garden-pod,insulated-buildings"
+  
+  // Business details
+  established Int?
+  employees   String?
+  certifications String? // Comma-separated certifications
+  
+  // Media
+  logo        String?
+  images      String? // Comma-separated image URLs
+  
+  // SEO
+  metaTitle       String?
+  metaDescription String?
+  
+  // Status
+  verified    Boolean @default(false)
+  featured    Boolean @default(false)
+  active      Boolean @default(true)
+  
+  // Timestamps
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  // Reviews
+  reviews     Review[]
+  
+  @@map("companies")
+}
+
+model Review {
+  id        String   @id @default(cuid())
+  companyId String
+  company   Company  @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  
+  // Review details
+  rating    Int      // 1-5 stars
+  title     String?
+  content   String?
+  author    String?
+  email     String?
+  
+  // Status
+  verified  Boolean @default(false)
+  published Boolean @default(true)
+  
+  // Timestamps
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  @@map("reviews")
+}
+
+model Location {
+  id        String   @id @default(cuid())
+  name      String
+  slug      String   @unique
+  type      String   // "city", "county", "region"
+  parentId  String?
+  parent    Location? @relation("LocationHierarchy", fields: [parentId], references: [id])
+  children  Location[] @relation("LocationHierarchy")
+  
+  // Geographic data
+  latitude  Float?
+  longitude Float?
+  
+  // SEO
+  metaTitle       String?
+  metaDescription String?
+  
+  @@map("locations")
+}
+
+model Service {
+  id          String   @id @default(cuid())
+  name        String
+  slug        String   @unique
+  description String?
+  
+  // SEO
+  metaTitle       String?
+  metaDescription String?
+  
+  @@map("services")
+}
+

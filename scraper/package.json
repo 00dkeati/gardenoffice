@@ -1,0 +1,33 @@
+{
+  "name": "garden-office-scraper",
+  "version": "1.0.0",
+  "description": "AI-powered web scraper for garden office companies across the UK",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "scrape": "node index.js scrape",
+    "clean": "node index.js clean",
+    "validate": "node index.js validate",
+    "integrate": "node index.js integrate",
+    "full": "node index.js full",
+    "schedule": "node src/scheduler.js",
+    "help": "node index.js help"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0",
+    "cheerio": "^1.0.0-rc.12",
+    "axios": "^1.6.0",
+    "fs-extra": "^11.1.1",
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.3",
+    "openai": "^4.20.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "chalk": "^4.1.2",
+    "progress": "^2.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
